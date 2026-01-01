@@ -14,4 +14,5 @@ def show_specific_task(request,id):
     print("id",id)
     print("id type",type(id))
     print("hello")
+    print("how are you")
     return HttpResponse("This is specific task page")
