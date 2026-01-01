@@ -18,3 +18,5 @@ def show_specific_task(request,id):
     return HttpResponse("This is specific task page")
 def dashboard(request,id):
     return HttpResponse("This is Dashboard")
+def admin(request):
+    return HttpResponse("This is admin feature implementation")
